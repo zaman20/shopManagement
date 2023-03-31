@@ -141,3 +141,52 @@ img.p-img {
     width: 97%;
     padding: 20px 10px;
 }
+/* ========
+pos page
+========== */
+.pos-product-table{
+    width:52%;
+    float: left;
+}
+.pos-list{
+    width: 47%;
+    float: right;
+    border-left: 2px solid #e1e0df;
+    padding-left: 15px;
+    
+}
+/* ==invoice== */
+.print-box {
+    border: 2px solid #dbdbdb;
+    clear: both;
+    padding: 10px;
+    border-radius: 5px;
+}
+.shop-info{
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.shop-info h2{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+.customer-info{
+    width: 30%;
+    float: right;
+}
+img.paid-image {
+    width: 200px;
+    margin-top: -61px;
+}
+/* =print= */
+@media print{
+    .left-side, .print-btn{display: none;}
+    .print-box{
+        margin-left: -150px;
+    }
+    
+
+}
