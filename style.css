@@ -94,3 +94,46 @@ Dashboard page css
 .performance-chart{
     padding-bottom: 30px;
 }
+/* ======================
+Product page css
+========================= */
+img.p-img {
+    width: 50px;
+    /* height: 100px; */
+}
+.product-list {
+    width: 97%;
+}
+.search-box{
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+    clear: both;
+}
+.search-text{
+    width: 250px;
+    display: inline !important;
+}
+.search-btn{
+    background:rgb(87, 87, 248);
+    border: 0px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 7px 10px;
+    width: 105px;
+
+}
+.search-by-type{
+    width: 30%;
+    float: right;
+    margin-bottom: 20px;
+}
+.product-title{
+    width: 30%;
+    float: left;
+}
+.add-new-btn{
+    width: 200px;
+    float: right;
+    margin-bottom: 25px;
+}
