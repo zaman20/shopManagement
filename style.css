@@ -137,3 +137,7 @@ img.p-img {
     float: right;
     margin-bottom: 25px;
 }
+.add-product-box{
+    width: 97%;
+    padding: 20px 10px;
+}
