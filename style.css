@@ -181,7 +181,9 @@ img.paid-image {
     width: 200px;
     margin-top: -61px;
 }
-/* =print= */
+/* ================
+print
+==============*/
 @media print{
     .left-side, .print-btn{display: none;}
     .print-box{
@@ -190,3 +192,72 @@ img.paid-image {
     
 
 }
+/* ======================
+Product Home Page
+=======================*/
+.header-wrapper{
+    background:#fff;
+    box-shadow: 0 0 2px gray;
+    height: 60px;
+}
+.header{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.menu, .search, .cart{float:left;}
+.menu{width: 5%;}
+.search{
+    width: 80%;
+    margin-left: 33px;
+}
+.home-search-box{
+    width: 90%;
+}
+.home-search-btn{
+    width: 10%;
+}
+.home-search-box {
+    width: 83%;
+    height: 39px;
+    border: 1px solid #cfcbcb;
+    border-radius: 0px 0px 0px 25px;
+    padding-left: 10px;
+    /* margin-top: 2px; */
+    border-right: 0px;
+    outline: navajowhite;
+}
+.home-search-btn {
+    width: 15%;
+    height: 41px;
+    margin-left: -4px;
+    border: 1px solid #fffafa;
+    border-radius: 0px 25px 0px 0px;
+    /* margin-top: -6px; */
+    background: orangered;
+    color: white;
+    font-size: 17px;
+}
+i.fa-solid.fa-cart-shopping {
+    font-size: 30px;
+    margin-left: 54px;
+    color: orangered;
+    margin-top: 6px;
+}
+i.fa-solid.fa-bars {
+    font-size: 30px;
+    color: #bf3502;
+    margin-top: 4px;
+}
+.slider-content{
+    clear: both;
+    height: 400px;
+}
+.slider-content img{
+    width: 100%;
+    height: 400px;
+}
+.splide__progress__bar {
+    height: 3px;
+    background: #f00303;
+  }
