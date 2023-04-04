@@ -354,6 +354,8 @@ a.buy-btn.btn.btn-success {
     margin-top: 45px;
     padding-top: 30px;
     padding-bottom: 20px;
+    position: fixed;
+    bottom: 0px;
 }
 .footer-box{
     width: 33%;
