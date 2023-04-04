@@ -20,7 +20,7 @@
             <div class="col-lg-12 header">
                 <!-- header part -->
                 <div class="menu">
-                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-bars menu-icon"></i>
                 </div>
                 <div class="search">
                     <form action="">
@@ -29,20 +29,32 @@
                     </form>
                 </div>
                 <div class="cart">
-                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-cart-shopping cart-header"></i>
                 </div>
             </div>
-
+            <!-- sidebar -->
+            <div class="sidebar">
+                <i class="fa-solid fa-xmark close-icon"></i>
+                <h2 class="f-logo">Smart-Shop</h2>
+                <ul>
+                    <li><a href="">T-shirsts</a></li>
+                    <li><a href="">T-shirsts</a></li>
+                    <li><a href="">T-shirsts</a></li>
+                    <li><a href="">T-shirsts</a></li>
+                    <li><a href="">T-shirsts</a></li>
+                    <li><a href="">T-shirsts</a></li>
+                </ul>
+            </div>
             <!-- slider -->
             <div class="slider-content">
-                <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+                <div class="splide" id="slide1" role="group" aria-label="Splide Basic HTML Example">
                     <div class="splide__track">
                         <ul class="splide__list">
-                            <li class="splide__slide" data-splide-interval="1000"><img src="img/4c226e85-cd59-4e8f-a182-0e57484da313.jpg_1200x1200.jpg" alt=""></li>
-                            <li class="splide__slide" data-splide-interval="1000"><img src="img/2353ca9a-f0c4-4aee-87a8-d2547747218d.jpg" alt=""></li>
-                            <li class="splide__slide" data-splide-interval="1000"><img src="img/2353ca9a-f0c4-4aee-87a8-d2547747218d.jpg" alt=""></li>
-                            <li class="splide__slide" data-splide-interval="1000"><img src="img/3ccec7e1-2885-46f1-8ab7-5ff250f7dcf0.jpg" alt=""></li>
-                            <li class="splide__slide" data-splide-interval="1000"><img src="img/98bf44bc-b038-4efd-bc8d-e305aa2d8755.jpg" alt=""></li>
+                            <li class="splide__slide" data-splide-interval="100000"><img src="img/4c226e85-cd59-4e8f-a182-0e57484da313.jpg_1200x1200.jpg" alt=""></li>
+                            <li class="splide__slide" data-splide-interval="100000"><img src="img/2353ca9a-f0c4-4aee-87a8-d2547747218d.jpg" alt=""></li>
+                            <li class="splide__slide" data-splide-interval="100000"><img src="img/2353ca9a-f0c4-4aee-87a8-d2547747218d.jpg" alt=""></li>
+                            <li class="splide__slide" data-splide-interval="100000"><img src="img/3ccec7e1-2885-46f1-8ab7-5ff250f7dcf0.jpg" alt=""></li>
+                            <li class="splide__slide" data-splide-interval="100000"><img src="img/98bf44bc-b038-4efd-bc8d-e305aa2d8755.jpg" alt=""></li>
                             
                         </ul>
                     </div>
@@ -53,17 +65,205 @@
                   </div>
                 </div>
             </div>
+            <!-- flash sales -->
+            <div class="flash-sale-box">
+                <h2>Flash Sales</h2>
+                <div class="splide" id="slide2" role="group" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                          <div class="splide__list">
+                              <div class="splide__slide">
+                                <div class="product-box">
+                                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                                    <p class="discount-tag">50% Off</p>
+                                    <h3>This is title</h3>
+                                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                                   <div class="btn-box">
+                                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                                   </div>
+                                </div>
+                              </div>
+                              <div class="splide__slide">
+                                <div class="product-box">
+                                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                                    <p class="discount-tag">50% Off</p>
+                                    <h3>This is title</h3>
+                                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                                   <div class="btn-box">
+                                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                                   </div>
+                                </div>
+                              </div>
+                              <div class="splide__slide">
+                                <div class="product-box">
+                                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                                    <p class="discount-tag">50% Off</p>
+                                    <h3>This is title</h3>
+                                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                                   <div class="btn-box">
+                                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                                   </div>
+                                </div>
+                              </div>
+                              <div class="splide__slide">
+                                <div class="product-box">
+                                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                                    <p class="discount-tag">50% Off</p>
+                                    <h3>This is title</h3>
+                                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                                   <div class="btn-box">
+                                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                                   </div>
+                                </div>
+                              </div>
+                              <div class="splide__slide">
+                                <div class="product-box">
+                                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                                    <p class="discount-tag">50% Off</p>
+                                    <h3>This is title</h3>
+                                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                                   <div class="btn-box">
+                                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                                   </div>
+                                </div>
+                              </div>
+                              <div class="splide__slide">
+                                <div class="product-box">
+                                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                                    <p class="discount-tag">50% Off</p>
+                                    <h3>This is title</h3>
+                                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                                   <div class="btn-box">
+                                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                                   </div>
+                                </div>
+                              </div>
+                          
+                             
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- product area -->
+            <div class="product-area">
+                <h2>Our Products</h2>
+
+                <div class="product-box p-width">
+                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                    <p class="discount-tag">50% Off</p>
+                    <h3>This is title</h3>
+                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                   <div class="btn-box">
+                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                   </div>
+                </div>
+                <div class="product-box p-width">
+                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                    <p class="discount-tag">50% Off</p>
+                    <h3>This is title</h3>
+                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                   <div class="btn-box">
+                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                   </div>
+                </div>
+                <div class="product-box p-width">
+                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                    <p class="discount-tag">50% Off</p>
+                    <h3>This is title</h3>
+                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                   <div class="btn-box">
+                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                   </div>
+                </div>
+                <div class="product-box p-width">
+                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                    <p class="discount-tag">50% Off</p>
+                    <h3>This is title</h3>
+                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                   <div class="btn-box">
+                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                   </div>
+                </div>
+                <div class="product-box p-width">
+                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                    <p class="discount-tag">50% Off</p>
+                    <h3>This is title</h3>
+                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                   <div class="btn-box">
+                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                   </div>
+                </div>
+                <div class="product-box p-width">
+                    <img src="img/download (1).jpg" alt="" class="home-p-image">
+                    <p class="discount-tag">50% Off</p>
+                    <h3>This is title</h3>
+                    <p>Price: 600tk <sub class="old-price">800tk</sub></p>
+                   <div class="btn-box">
+                    <a href="#" class="cart-btn btn btn-dark" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i>Add Cart</a>
+                    <a href="#" class="buy-btn btn btn-success" title="Buy Now"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                   </div>
+                </div>
+            </div>
+            <!-- footer -->
+            <div class="footer-area">
+                <div class="footer-box">
+                    <h2 class="f-logo">Smart Shop</h2>
+                    <div class="socail-link">
+                       <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook f-icon"></i></a> 
+                        <a href="https://youtube.com/"><i class="fa-brands fa-youtube f-icon"></i></a>
+                    </div>
+                    
+                    
+                </div>
+                <div class="footer-box">
+                    <h2>Contact Us</h2>
+                    <a href="tel:01751018490"><i class="fa-solid fa-phone f-icon"></i>01751018490</a> <br>
+                    <a href="mailto:contact@smartshop.com"><i class="fa-solid fa-envelope f-icon"></i>contact@smartshop.com</a>
+                    <p><i class="fa-solid fa-house f-icon"></i> HSTU Campus, Basherhut, Dinajpur</p>
+                </div>
+                <div class="footer-box">
+                    <p>Smart shop is a leading shop in this city....</p>
+                    <a href=""><i class="fa-solid fa-comment f-icon"></i>Send Us Message</a>
+                </div>
+            </div>
         </div>
     </div>
 
+    <!-- jq -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <!-- slider js -->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
     <script>
-        new Splide( '.splide',{
-  type    : 'loop',
-  autoplay: 'true',
-  perPage : 1,} ).mount();
+        new Splide( '#slide1',{
+        type    : 'loop',
+        autoplay: 'false',
+        perPage : 1,} ).mount();
+
+        new Splide( '#slide2',
+        {
+        type    : 'loop',
+        perPage : 4,} ).mount(window.splide.Extensions);
+
+        // menu icon
+        $('.menu-icon').on('click',function(){
+            $('.sidebar').addClass('sidebar-show');
+        });
+        $('.close-icon').on('click',function(){
+            $('.sidebar').removeClass('sidebar-show');
+        });
     </script>
 </body>
 </html>
