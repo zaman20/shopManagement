@@ -430,3 +430,15 @@ a.buy-btn.btn.btn-success {
    
 }
 .menu-icon, .close-icon{cursor: pointer;}
+.buy-form{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.address-box, .mobile-box{
+    display: none;
+}
+.buy-form label {
+    color: red;
+}
